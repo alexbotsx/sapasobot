@@ -69,12 +69,12 @@ global.avatar = fs.readFileSync('./src/img/avatar_contact.png')
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
-global.grupo = 'https://chat.whatsapp.com/IAHpXVSTVbC7xk17kAqRzo'
-global.channel = 'https://chat.whatsapp.com/FQhAChRgh2P84YJsHQuWlw'
-global.channel2 = 'https://chat.whatsapp.com/FQhAChRgh2P84YJsHQuWlw'
+global.grupo = 'https://chat.whatsapp.com/HqhAoXS8TCcJIn0KrbJZKz'
+global.channel = 'https://whatsapp.com/channel/0029Vb4TKBCD38CNEkfHdj1z'
+global.channel2 = 'https://whatsapp.com/channel/0029Vb4TKBCD38CNEkfHdj1z'
 global.md = 'https://wa.me/qr/PAOHAKCEHGUXN1'
-global.ig = 'https://chat.whatsapp.com/FQhAChRgh2P84YJsHQuWlw'
-global.tiktok = 'https://chat.whatsapp.com/FQhAChRgh2P84YJsHQuWlw'
+global.ig = 'www.instagram.com/ineffable.mvrco'
+global.tiktok = 'https://www.tiktok.com/@ineffable.mvrco'
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
