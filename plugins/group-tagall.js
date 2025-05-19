@@ -1,25 +1,23 @@
-const handler = async (m, { isOwner, isAdmin, conn, text, participants, args, command }) => {
+let handler = async(m, { isOwner, isAdmin, conn, text, participants, args, command }) => {
   if (!(isAdmin || isOwner)) {
-    global.dfail('admin', m, conn);
-    throw false;
-    var sum = member.length;
-  } else {
-    var sum = 0;
-    const total = 0;
-    var member = 0;
+  global.dfail('admin', m, conn)
+  throw false
   }
-  const pesan = args.join` `;
-  const oi = `𝙀𝙏𝙄𝙌𝙐𝙀𝙏𝘼𝙎:* ${pesan}`;
-  let teks = `*> Tʜᴇ Sᴜɴ Is Bʀɪɢʜᴛ Bᴜᴛ Nᴏᴛ As Bʀɪɢʜᴛ As Mᴇ ☀️*\n\n *${oi}\n\n➥ _*@ineffable.mvrco:*_\n`;
-  for (const mem of participants) {
-    teks += `*🥷🏼 ⇝* @${mem.id.split('@')[0]}\n`;
+  let pesan = args.join` `
+  let oi = `𝑷𝒂𝒓𝒂 𝒂𝒅𝒒𝒖𝒊𝒓𝒊𝒓 𝒖𝒏 𝒃𝒐𝒕 👇🏻
+
+Wa.me//+51968914403 
+  ${pesan}`
+  let teks = `🐸 𝗦𝗔𝗣𝗜𝗧𝗢 𝗕𝗢𝗧 🐸*
+   ${oi}\n\n🍒𝑬𝒕𝒊𝒒𝒖𝒆𝒕𝒂 𝑮𝒆𝒏𝒆𝒓𝒂𝒍 🍒*\n`
+  for (let mem of participants) {
+  teks += `┏・🍒 @${mem.id.split('@')[0]}\n`}
+  teks += `┗・𝗬𝗔𝗥𝗜𝗧𝗭𝗔 - 𝗩𝗘𝗡𝗧𝗔𝗦`
+  conn.sendMessage(m.chat, { text: teks, mentions: participants.map(a => a.id) }, )
   }
-  teks += `*└KɪʟʟBᴏᴛ ⇝@ineffable.mvrco*`;
-  conn.sendMessage(m.chat, { text: teks, mentions: participants.map((a) => a.id) });
-};
-handler.help = ['tagall <mesaje>', 'invocar <mesaje>'];
-handler.tags = ['group'];
-handler.command = /^(tagall|invocar|marcar|todos|invocación|ta)$/i;
-handler.admin = true;
-handler.group = true;
-export default handler;
+  handler.help = ['tagall <mesaje>','invocar <mesaje>']
+  handler.tags = ['group']
+  handler.command = /^(tagall|invocar|invocacion|todos|invocación|aviso|despierten)$/i
+  handler.admin = true
+  handler.group = true
+  export default handler
